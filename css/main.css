@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('../assets/images/fondo.jpg');
+    background-repeat: no-repeat;
+   background-size: cover; 
+   font-family: arial;
+}
+
+header {
+    font-weight: 700;
+    background: rgba(0,0,0,.15);
+    padding: 2px 0;
+    width: 100%;
+    height: 44px;
+}
+
+.logo {
+    width: 80px;
+    margin-left: 25%;
+    vertical-align: baseline;
+    position: relative;
+    top: 5px;
+}
+
+.logo img {
+    width: 100%;
+    opacity: 0.5;
+}
+
+.user li,
+.box-main li {
+    list-style:none;
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+.box-header {
+    display: inline-block;
+}
+
+.start a {
+    padding: 7px;
+    vertical-align: baseline;
+    border-radius: 3px;
+    background: rgba(255,255,255,.3);
+    margin-left: 5px;
+}
+
+.start a:hover,
+.user .icons:hover {
+    background: rgba(255,255,255,.2) ; 
+}
+
+.search {
+    padding: 6px;
+    vertical-align: baseline;
+    border-radius: 3px;
+    background: rgba(255,255,255,.3);
+    margin-left: 5px;
+}
+
+.start .tablero i {
+    padding-right: 10px;
+    font-size: 18px;
+}
+
+.start .tablero span,
+.box-main li{
+    font-size: 14px;
+    color: white;
+}
+
+.search i,
+.box-main i{
+    color: white;
+    margin-left: 5px;
+}
+
+.search input {
+    border: none;
+    background: none;
+    font-size: 13px;
+    line-height: 19px;
+    width: 150px;
+    outline: none;
+}
+
+.search:hover {
+    background: rgba(255,255,255,.4)
+}
+
+.user  {
+    float: right;
+    position: relative;
+    top: 10px;
+    right: 15px;
+}
+
+.user .icons{
+    vertical-align: baseline;
+    border-radius: 3px;
+    background: rgba(255,255,255,.3);
+    margin-left: 10px; 
+    color: white; 
+    padding: 8px 5px;
+}
+
+.user .icons i {
+    margin-left: 5px;
+}
+
+.user-icon div {
+    border-radius: 100%;
+    color: #333333;
+    size: 14px;
+    font-weight: 400;
+    background-color: #cbd5da;
+    text-align: center;
+    padding: 6px;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+    margin-top: -5px;
+}
+
+.user-icon div:hover {
+    background-color: #c3ced3;
+}
+
+/****************************************************/
+
+.box-main {
+    margin: 15px 5px;
+}
+
+.box-main a {
+    padding: 8px;
+    border-radius: 3px;
+    margin: 1px;
+}
+
+.box-main a:hover {
+    background: rgba(0,0,0,.20);
+}
+
+.box-welcome li {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+}
+
+.box-main span::after {
+    content: '|';
+    color: white;
+    margin-left: 3px;
+}
+
+.fa-lock {
+    padding-right: 7px;
+}
+
+#mostrar-menu {
+    margin-left: 55%;
+}
+
+#mostrar-menu li {
+    text-decoration: underline;
+}
+
+#mostrar-menu span::after{
+    content: '...';
+    font-weight: bold;
+}
+
+/************************************************************/
+section {
+    outline: hidden;
+}
+
+form {
+    outline: hidden;
+    width: 300px;
+    margin: 25px 5px;
+    border-radius: 3px;
+    padding: 5px;
+    float: left;
+} 
+
+.add-list{
+    border-radius: 3px;
+    padding: 8px 170px 8px 7px ;
+    cursor: pointer;
+    color: white;
+    background: rgba(0,0,0,.15);
+    font-size: 14px;
+}
+
+.add-list:hover {
+    background: rgba(196, 194, 194, 0.7);
+}
+
+/*******************JS****************************/
+.form-btn {
+    display: inline-block;
+    padding: 5px 15px;
+    color: white;
+    font-weight: 700;
+    font-size: 14px;
+    background-color: #5aac44;
+    border-radius: 3px;
+    margin: 5px 0;
+    outline: none;
+    border: none;
+}
+
+/**ingreso de lista-js**/
+.form-input {
+    width: 100%;
+    border-radius: 3px;
+    padding: 7px ;
+    background: #d6d8da;
+    color: black;
+    outline: none;
+    border: 1px solid #a7a9aa;
+    font-size: 14px;
+}
+
+/*ocultar -js*/
+.hide{
+    width: 300px;
+    margin: 25px 5px;
+    border-radius: 3px;
+    padding: 5px;
+    background: #e2e4e6;
+}
+
+.cerrar{
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 900;
+    Color: #797979;
+    margin: 5px;
+}
+
+/********************js-card***********************************/
+
+.container-tarea {
+    outline: hidden;
+    width: 300px;
+    margin: 25px 5px;
+    border-radius: 3px;
+    padding: 5px;
+    background: #e2e4e6;
+    display: inline-block;
+}
+
+p {
+    word-wrap: break-word; 
+    padding: 5px;
+}
+
+.formCard {
+    background-color: #e2e4e6;
+}
+
+.textarea {
+    width: 100%;
+}
+
+
+
